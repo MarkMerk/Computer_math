@@ -2,7 +2,7 @@
 
 print('Input an integer, to set the number of rows and columns in matrix')
 
-n=int(input())
+n = int(input())
 
 matr = [[0 for q in range(n)] for m in range(n)]
 
@@ -18,7 +18,7 @@ while c >= 0:
             i += 1
     else:
         break
-    j= 1 + c
+    j = 1 + c
     if c < n:
         while j in range(c+1, n-c):
             matr[j][n-1-c] = k
@@ -41,7 +41,7 @@ while c >= 0:
             k += 1
             b -= 1
     else:
-        break   
+        break 
     c += 1
 
 for u in range(n):
