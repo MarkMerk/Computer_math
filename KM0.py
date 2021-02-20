@@ -2,6 +2,7 @@ n= int(input())
 matr = [[0 for q in range(n)] for l in range(n)]
 c = 0
 k = 1
+print('Input an integer, to set the number of rows and columns in matrix')
 while c >= 0:
 	i = c
 	if c<n:
