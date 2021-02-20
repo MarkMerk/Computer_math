@@ -1,8 +1,14 @@
-n= int(input())
+#!/usr/bin/env python3.9
+
 matr = [[0 for q in range(n)] for l in range(n)]
+
 c = 0
 k = 1
+
 print('Input an integer, to set the number of rows and columns in matrix')
+
+n= int(input())
+
 while c >= 0:
 	i = c
 	if c<n:
@@ -37,5 +43,6 @@ while c >= 0:
 	else:
 		break	
 	c += 1
+
 for u in range(n):
 	print(*matr[u])
